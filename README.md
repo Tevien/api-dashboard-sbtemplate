@@ -1,4 +1,4 @@
-# Link to Webapp [https://amirt.herokuapp.com](https://amirt.herokuapp.com)
+Adapted from: https://github.com/atahmasb/world-bank-api-dashboard
 
 # World Bank API Data Dashboard 
 
@@ -23,10 +23,12 @@ To install the flask app, you need:
  pip install -r requirements.txt
 ```
 
-## Installing
+## Running
 
-On a MacOS/linux system, installation is easy. Open a terminal, and go into 
-the directory with the flask app files. Run python worldbank.py in the terminal.
+```
+export FLASK_APP=template.py
+python -m flask run
+```
 
 ## Licence
 
